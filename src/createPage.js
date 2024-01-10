@@ -10,7 +10,7 @@ const mainPage = () => {
     heading.classList.add("heading");
     paragraph.classList.add("para");
 
-    img.src = "../dist/images/sushi.jpg";
+    img.src = "./images/sushi.jpg";
     img.height = '300';
     img.width = '300';
 
