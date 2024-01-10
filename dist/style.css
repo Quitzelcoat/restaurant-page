@@ -1,0 +1,71 @@
+body {
+    /* font-family: 'Lemon', serif; */
+    /* font-family: 'Kanit', sans-serif; */
+    
+    margin: 0;
+    background-image: url(./images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allContainer {
+    height: 100%;
+    padding: 0 20px;
+    color: hsl(35, 100%, 15%);
+}
+
+/* Nav Bar */
+.nav {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: hsl(237, 66%, 7%);
+    color: hsla(240, 100%, 94%, 0.788);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.homeNav:hover {
+    cursor: pointer;
+    color: hsl(240, 100%, 97%);
+}
+
+.menuNav:hover {
+    cursor: pointer;
+    color: hsl(240, 100%, 97%);
+}
+
+.contactNav:hover {
+    cursor: pointer;
+    color: hsl(240, 100%, 97%);
+}
+
+.navBtn {
+    padding: 20px;
+}
+/* Nav Bar */
+
+/* Home Page */
+.heading {
+    font-family: 'Lemon', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    text-align: center;
+    margin: 0 25%;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.homeImg {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;   
+}
+/* Home Page */

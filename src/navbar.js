@@ -5,21 +5,24 @@ import contact from "./contact";
 const navbar = () => {
     const content = document.getElementById("content");
 
+    const nav = document.createElement("div");
     const homeNav = document.createElement("div");
     const menuNav = document.createElement("div");
     const contactNav = document.createElement("div");
 
-    homeNav.classList.add("homeNav");
-    menuNav.classList.add("menuNav");
-    contactNav.classList.add("contactNav");
+    nav.classList.add("nav");
+    homeNav.classList.add("homeNav", 'navBtn');
+    menuNav.classList.add("menuNav", 'navBtn');
+    contactNav.classList.add("contactNav", 'navBtn');
 
     homeNav.innerText = "Home";
     menuNav.innerText = "Menu";
     contactNav.innerText = "Contact Us";
-    
-    content.appendChild(homeNav);
-    content.appendChild(menuNav);
-    content.appendChild(contactNav);
+
+    content.appendChild(nav);
+    nav.appendChild(homeNav);
+    nav.appendChild(menuNav);
+    nav.appendChild(contactNav);
 
     homeNav.addEventListener('click', () => {
         clearTab();
