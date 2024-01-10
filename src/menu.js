@@ -21,7 +21,7 @@ const menuPage = () => {
     pizzaDes.innerText = "An Italian origin dish consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven."
     pizzaPrice.innerHTML = "$ 10";
 
-    pizzaImg.src = "../images/pizza.jpg";
+    pizzaImg.src = "./images/pizza.jpg";
     pizzaImg.height = "300";
     pizzaImg.width = '300';
 
